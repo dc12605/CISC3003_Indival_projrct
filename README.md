@@ -1,8 +1,6 @@
-# CISC3003_Indival_projrct
- 
-# Online Shopping System
+# CISC3003 Individual Project - Online Shopping System
 
-This project is an e-commerce web application built with PHP. It facilitates the management of an online store where users can browse products, add them to their shopping cart, and checkout. The system also includes functionalities for viewing and managing orders.
+This repository contains the coursework for CISC3003, focusing on the development of an online shopping system. This project demonstrates the capabilities of PHP in building dynamic web applications that include product management, shopping cart functionalities, order placement, and order viewing.
 
 ## Project Structure
 
@@ -17,44 +15,32 @@ This project is an e-commerce web application built with PHP. It facilitates the
 To set up this project locally, follow these steps:
 
 1. **Clone the repository:**
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/dc12605/CISC3003_Indival_projrct.git
 
 2. **Navigate to the project directory:**
+cd CISC3003_Individual_Project
 
 ## Usage
 
-To run this project on a local server using PHP's built-in server:
+To run this project on a local server using XAMPP:
 
-1. **Navigate to the project directory.**
-2. **Start the server:**
-php -S localhost:8000
-3. **Open a web browser and go to:**
-
-Ensure that you have PHP installed on your machine. If not, you can download and install it from [PHP.net](https://www.php.net/).
+1. **Open XAMPP**
+2. **Start the server and SQL**
+3. **Navigate to :**
+http://localhost/phpmyadmin
+3. **Create a database named**shop_db
+4. **Import the shop_db.sql file into the shop_db database**
+5. **Edit the connect.php file and replace the password with your own password**
 
 ## Contributing
 
-We welcome contributions from the community. Here are some ways you can contribute:
-
-1. **Report Bugs:** Provide detailed reports with reproducible steps and screenshots if possible.
-2. **Submit Fixes:** Send a pull request with your bug fixes.
-3. **Feature Requests:** Open an issue detailing the features you would like to see added.
-4. **Documentation:** Help improve or translate the documentation.
-
-To contribute:
-
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a pull request.
+Given this is an individual academic project, external contributions are not sought. However, any feedback or suggestions are welcomed and can be provided by opening an issue in the repository.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This academic project is provided for educational purposes and is not licensed for commercial use.
 
 ## Acknowledgments
 
-- Thanks to all the contributors who spend time to improve this project.
-- Special thanks to anyone whose code was used.
+- Special thanks to the faculty of CISC3003 for guidance and assignment criteria.
 - Inspired by various online e-commerce platforms.
